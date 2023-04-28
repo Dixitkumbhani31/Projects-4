@@ -5,11 +5,11 @@ main()
 {
 	int r,c,a=n,b=n;
 	
-	for(r=1;r<=n;r++)
+	for(r=1;r<=5;r++)
 	{
-		for(c=1;c<=n*2;c++)
+		for(c=1;c<=r;c++)
 		{
-			if(c==a || c==b)
+			if(c==a && c==b)
 			{
 			    printf("*");
 			}	
